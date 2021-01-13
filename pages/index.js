@@ -18,7 +18,7 @@ export default function Home() {
           <input className={styles.inputLogin} type="text" placeholder='Usuário...' />
           <input className={styles.inputLogin} type="text" placeholder='Senha...' />
           <Button className={styles.btnLogar} type='submit' variant="contained" color="primary">
-            Logar
+            Logar 2
           </Button>
         </form>
 
