@@ -1,0 +1,75 @@
+.Container {
+  display: flex;
+  background-color: #eee;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 50%;
+  height: 750px;
+  min-width: 400px;
+  padding: 10px;
+ 
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 50px;
+}
+
+.cardImg {
+  display: flex;
+  border-width: 1px;
+  border-style: groove;
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+}
+
+.btnGravar{
+  background-color: rgba(15, 227, 86, 0.535);
+  border-radius: 5px;
+  width: 350px;
+  height: 36px;
+  margin: 5px;
+}
+
+.TituloContainer{
+  display: flex;
+  justify-content: center;
+}
+.Titulo{
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.InputIMG{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  border-style: groove;
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.ContainerBtn{
+  display: flex;
+  justify-content: space-evenly;
+}

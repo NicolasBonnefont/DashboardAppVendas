@@ -1,32 +1,24 @@
-import styles from '../styles/Home.module.css'
-import Button from '@material-ui/core/Button';
+import React, { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
 
-export default function Home() {
+export default function Index() {
+  const router = useRouter()
+  const [token, setToken] = useState('')
 
-/*   async function Logar() {
-    event.preventDefault()
+  useEffect(() => {
 
-    console.log('TESTE')
+    VerificaLogado()
+  })
+
+  function VerificaLogado() {
+    if (localStorage.getItem('Token')) {
+      router.push('/principal')
+    } else {
+      router.push('/login')
+      localStorage.clear()
+    }
+
   }
- */
 
-  return (
-    <div className={styles.Container}>
-
-      <div className={styles.CardLogin}>
-        <form className={styles.form} >
-          <input className={styles.inputLogin} type="text" placeholder='Usuário...' />
-          <input className={styles.inputLogin} type="text" placeholder='Senha...' />
-          <Button className={styles.btnLogar} type='submit' variant="contained" color="primary">
-            Logar 2
-          </Button>
-        </form>
-
-
-
-      </div>
-
-    </div>
-
-  )
+return(<></>)
 }
