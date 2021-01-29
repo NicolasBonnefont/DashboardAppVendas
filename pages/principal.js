@@ -19,7 +19,7 @@ function principal() {
         <div className={styles.cardPrincipal}>
 
           <div
-          onClick={()=> router.push('/novaEmpresa')}
+            onClick={() => router.push('/novaEmpresa')}
             className={styles.card}>
             Nova Empresa
           </div>
@@ -31,7 +31,23 @@ function principal() {
           </div>
 
         </div>
+        <div className={styles.cardPrincipal}>
+
+          <div
+            onClick={() => router.push('/novoUsuario')}
+            className={styles.card}>
+            Novo Usuário
+          </div>
+
+          <div
+            onClick={() => router.push('/alteraEmpresa')}
+            className={styles.card}>
+            Alterar Usuário
+          </div>
+
+        </div>
       </div>
+
     </>
   )
 }

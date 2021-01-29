@@ -41,15 +41,18 @@ export default function Home() {
           alert('Usuário não autorizado !')
           localStorage.clear()
           setLoading(false)
+          return
         }
         
       })
       .catch(error => {
         console.log(error)
         alert('Problema no Acesso')
-        return
+        localStorage.clear()
+        setLoading(false)
+        
       })
-
+      setLoading(false)
   }
 
   return (

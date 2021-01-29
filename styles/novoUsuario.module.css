@@ -1,0 +1,78 @@
+.principal{
+  width: 100%;
+  height: 100vh;
+
+}
+.Container {
+  display: flex;
+  background-color: #eee;
+  justify-content: center;
+  width: 100%;
+  height: 89%;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 30%;
+  height: 500px;
+  margin: 50px;
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 50px;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+}
+
+.btnGravar{
+  background-color: rgba(15, 227, 86, 0.535);
+  border-radius: 5px;
+  width: 100%;
+  height: 46px;
+  margin-top: auto;
+}
+.TituloContainer{
+  display: flex;
+  justify-content: center;
+}
+.Titulo{
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.InputIMG{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  border-style: groove;
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+}
+.ContainerGroupRadio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.GroupRadio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Radio{
+  height: 20px;
+  width: 20px;
+}
