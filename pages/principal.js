@@ -40,7 +40,7 @@ function principal() {
           </div>
 
           <div
-            onClick={() => router.push('/alteraEmpresa')}
+            onClick={() => router.push('/alteraUsuario')}
             className={styles.card}>
             Alterar Usuário
           </div>
